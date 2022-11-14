@@ -14,10 +14,6 @@ def read_dataset():
     my_dataset = './data/iris.csv'
     data = explore_data(my_dataset)
 
-import streamlit as st
-import pandas as pd
-import os 
-
 def show_dataset():
     if st.checkbox("Preview Dataset"):    
         if st.button("Head"):
